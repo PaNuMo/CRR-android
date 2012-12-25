@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/buttonBusquedaLugar"
+	        style="@style/ButtonText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="-30dp"
+	        android:layout_marginLeft="30dp"
+	        android:layout_marginRight="30dp"
+	        android:background="@drawable/green_button"
+	        android:onClick="busquedaLugarProvincias"
+	        android:text="@string/button_busqueda_lugar" />
+
+	</FrameLayout>
+	
+	<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/buttonBusquedaMaterial"
+	        style="@style/ButtonText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="30dp"
+	        android:layout_marginRight="30dp"
+	        android:layout_marginTop="-30dp"
+	        android:background="@drawable/green_button"
+	        android:onClick="busquedaMaterialCategorias"
+	        android:text="@string/button_busqueda_material" />
+
+	</FrameLayout>
+
+</LinearLayout>

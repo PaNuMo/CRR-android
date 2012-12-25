@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Costa Rica Recicla</string>
+    <string name="app_version">1.0</string>
+    <string name="menu_settings">Preferencias</string>
+    <string name="title_activity_main">Costa Rica Recicla</string>
+    <string name="button_busqueda_lugar">Buscar por Provincia</string>
+    <string name="button_busqueda_material">Buscar por Material</string>
+    <string name="button_call">Llamar</string>
+    <string name="title_activity_busqueda_lugar">Provincias</string>
+    <string name="title_activity_busqueda_lugar_cantones">Cantones</string>
+    <string name="title_activity_busqueda_lugar_centros">Centros de Acopio</string>
+    <string name="title_activity_busqueda_material_categorias">Materiales</string>
+    <string name="title_activity_busqueda_material_centros">Centros de Acopio</string>
+    <string name="title_activity_centro_acopio">Centro de Acopio</string>
+    <string name="centro_acopio_titulo">Nombre del Centro de Acopio</string>
+    <string name="title_dialog_centro_acopio">Indicaciones</string>
+    <string name="title_dialog_telefonos">Escoge un # tel.</string>
+    <string name="title_dialog_acercade">Acerca de Costa Rica Recicla</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="mensaje_lista_vacia">Upss! No hay ningún centro de acopio registrado para este cantón :( \n\nSi conoce alguno, por favor envíe la información necesaria mediante el \n<a href="https://docs.google.com/spreadsheet/viewform?formkey=dHZPM0VIQ0d6dW5qQml2N09McDVPeEE6MQ"><b>siguiente formulario</b></a>.</string>
+    <string name="mensaje_sin_telefono">Upss! No hay ningún número de teléfono asociado a este centro de acopio :( \n\nSi conoce alguno puede reportarlo mediante el \n<a href="https://docs.google.com/spreadsheet/viewform?formkey=dHZPM0VIQ0d6dW5qQml2N09McDVPeEE6MQ"><b>siguiente formulario</b></a>.\n</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+	<string name="mensaje_acercade">Esta aplicación muestra información de varios centros de acopio de Costa Rica. \n\nCódigo original escrito por Pablo Núñez Morán, liberado bajo licencia GPL, v3. \n\nCabe destacar que la mayoría de datos en la aplicación se obtuvieron gracias a una página web de El Financiero.</string>
+    <string name="pathForm">https://docs.google.com/spreadsheet/viewform?formkey=dHZPM0VIQ0d6dW5qQml2N09McDVPeEE6MQ</string>
+    
+</resources>

@@ -1,0 +1,70 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panumo.costaricarecicla"
+    android:versionCode="1"
+    android:versionName="@string/app_version" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Principal"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BusquedaLugarProvincias"
+            android:label="@string/title_activity_busqueda_lugar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.panumo.costaricarecicla.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BusquedaLugarCantones"
+            android:label="@string/title_activity_busqueda_lugar_cantones" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.panumo.costaricarecicla.BusquedaLugarProvincias" />
+        </activity>
+        <activity
+            android:name=".BusquedaLugarCentros"
+            android:label="@string/title_activity_busqueda_lugar_centros" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.panumo.costaricarecicla.BusquedaLugarCantones" />
+        </activity>
+        <activity
+            android:name=".BusquedaMaterialCategorias"
+            android:label="@string/title_activity_busqueda_material_categorias" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.panumo.costaricarecicla.Principal" />
+        </activity>
+        <activity
+            android:name=".BusquedaMaterialCentros"
+            android:label="@string/title_activity_busqueda_material_centros" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.panumo.costaricarecicla.BusquedaMaterialCategorias" />
+        </activity>
+        <activity
+            android:name=".CentroAcopio"
+            android:label="@string/title_activity_centro_acopio" >
+        </activity>
+        <activity
+            android:name=".Preferencias"
+            android:label="@string/title_activity_preferencias" >
+        </activity>
+    </application>
+
+</manifest>
